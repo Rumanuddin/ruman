@@ -693,7 +693,7 @@ header:after {
   .header-fitness .header-menu .container {
     padding-top: 15px;
     padding-bottom: 9px; } }
-@media (max-width: 767px) {
+@media (max-width: 760px) {
   .s-header-title .title {
     font-size: 28px; }
 
@@ -705,9 +705,9 @@ header:after {
     flex-direction: column-reverse; }
 
   .header-logo {
-    border-top: none;
-    margin-top: 0;
-    padding: 15px 0 10px; }
+    
+    padding-top: 10% ;
+    }
 
   .header-menu {
     padding-bottom: 0; }
@@ -1172,13 +1172,15 @@ footer {
 /*--------------------------- CONTENT STYLE ---------------------------*/
 /*-------------------- LOGO --------------------*/
 .logo {
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  display: inline-block; }
-  .logo img {
-    display: block; }
+  align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
 
+.logo img {
+  width: 250px;
+}
 .btn {
   font-size: 16px;
   padding: 11px 40px 10px;
@@ -3571,10 +3573,12 @@ blockquote:before {
 
   .crossfit-banner-left {
     height: 510px; } }
-@media (max-width: 1366px) {
+/* @media (max-width: 1366px) {
   .logo img {
-    max-width: 230px;
-  padding-bottom: 50px; }
+    max-width: 180px;
+   
+  
+  } */
 
   .s-crossfit-slider .slider-navigation {
     bottom: 28%; }
@@ -3635,7 +3639,7 @@ blockquote:before {
     padding: 0 20px; }
 
   .fitness-post-col .post-footer .meta span {
-    font-size: 14px; } }
+    font-size: 14px; } 
 @media (max-width: 1280px) {
   .crossfit-banner-right .text-bottom {
     font-size: 36px; }
@@ -3662,8 +3666,8 @@ blockquote:before {
   .s-counter,
   .s-training-schedule,
   .s-our-programs,
-  .s-crossfit {
-    padding: 88px 0 100px; }
+  /* .s-crossfit {
+    padding: 88px 0 100px; } */
 
   .s-news,
   .s-about-information,
@@ -4635,3 +4639,4 @@ blockquote:before {
 
   .widget-instagram li img {
     height: 100px; } }
+    
